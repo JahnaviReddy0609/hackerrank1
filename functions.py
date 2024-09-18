@@ -1,26 +1,26 @@
-'''a=(5,6.7,8,"h")
+a=(5,6.7,8,"h")
 print(a)
 s="janu"
 a=[]
 a=tuple(s)
-print(a)'''
+print(a)
 
-'''list=[9,6,4,2,10,6,8]
+list=[9,6,4,2,10,6,8]
 for i in list:
     if(i==10):
         print("10")
     if(i==2):
-        print("2")'''
+        print("2")
 
-'''g="jahnavi"
+g="jahnavi"
 h="reddy"
 print(g)
 print(g.strip())
 print(h.split())
 i=["c.","jahnavi"]
-print("".join(i))'''
+print("".join(i))
 
-'''x=10
+x=10
 def outer():
     x=20
     def inner():
@@ -29,9 +29,9 @@ def outer():
     inner()
     print(x)
 outer()
-print(x)'''
+print(x)
 
-'''class goa:
+class goa:
     def party(self):
         print("lets party")
     def beach(self):
@@ -39,9 +39,9 @@ print(x)'''
 ramesh=goa()
 suresh=goa()
 ramesh.party()
-suresh.beach()'''
+suresh.beach()
 
-'''class mobile:
+class mobile:
     def __init__(self,brand,battery,camera,price):
         self.brand=brand
         self.battery=battery
@@ -53,7 +53,7 @@ suresh.beach()'''
         print("camera",self.camera)
         print("price",self.price)
 m=mobile("iphone","500","68","35000")
-m.display()'''
+m.display()
 
 class animal:
     def sound(self):
